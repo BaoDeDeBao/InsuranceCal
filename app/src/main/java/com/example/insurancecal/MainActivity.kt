@@ -98,8 +98,7 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener {
 
     fun reset(view: View) {
         spinnerAge.setSelection(0)
-        radioButtonMale.isChecked = false
-        radioButtonFemale.isChecked = false
+        radioGroupGender.check(0)
         checkBoxSmoker.isChecked = false
         textViewPrice.setText("")
     }
